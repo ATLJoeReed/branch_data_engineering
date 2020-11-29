@@ -5,7 +5,7 @@ from typing import List, Optional
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-from campaign_finance.utils import constants_sql, helpers
+from campaign_finance_api.utils import constants_sql, helpers
 
 
 router = APIRouter()
